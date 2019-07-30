@@ -40,7 +40,7 @@ readInterface.on("close", async function(line) {
   logger.info("close");
 });
 readInterface.on("line", async function(line) {
-  if (line.length < 5 || line.length > 12) {
+  if (line.length < 2) {
     return;
   }
 
