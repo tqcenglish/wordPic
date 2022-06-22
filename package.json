@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "pino": "^5.13.1",
     "pino-pretty": "^3.2.0",
     "rimraf": "^2.6.3",
